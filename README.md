@@ -2,7 +2,7 @@
 
 Este é o frontend de um sistema para administração de condomínios, adaptado para o condomínio onde vivo, **Residencial Acapulco**. O sistema permite que administradores gerenciem moradores e mensagens, enquanto moradores podem acessar informações e enviar mensagens para a administração.
 
-###Login de administrador
+### Login de administrador
 Pode ser acessado pela rota /login/admin
 
 ## Funcionalidades
