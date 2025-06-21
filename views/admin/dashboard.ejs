@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard - Admin Acapulco</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .welcome-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="d-flex">
+    <%- include('../partials/sidebar-admin') %>
+
+    <div class="flex-fill p-4">
+      <div class="container">
+        <div class="welcome-card p-4">
+          <h2 class="mb-3">Bem-vindo, Administrador!</h2>
+          <p class="lead">Esta é a central de administração do <strong>Residencial Acapulco</strong>.</p>
+          <p>Aqui você pode gerenciar moradores e mensagens com facilidade e segurança.</p>
+          <hr>
+          <p class="text-muted">Use o menu à esquerda para navegar pelas seções disponíveis.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
